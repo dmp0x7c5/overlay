@@ -5,6 +5,7 @@
 EAPI="4"
 
 EGIT_REPO_URI="git://github.com/dmp0x7c5/gobexfuse.git"
+EGIT_BRANCH="playground"
 
 inherit git-2 autotools eutils
 
