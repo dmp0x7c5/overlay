@@ -24,6 +24,8 @@ Ebuilds
 
 **app-mobilephone/obexd** - e-build for obexd version with gobexfuse (OBEX filesystem in userspace).
 
+Don't forget to use **fuse** USE :)
+
 You could mount/unmount gobexfuse using following commands:
 ```     
 gobexfuse /mnt/myphone --target=00:24:EF:08:B6:32
