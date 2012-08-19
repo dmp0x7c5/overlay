@@ -14,8 +14,8 @@ overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
 To fetch new list and add dmp's overlay use:
 
 ```     
-  layman -f
-  layman -a dmp
+layman -f
+layman -a dmp
 ```     
 
 
