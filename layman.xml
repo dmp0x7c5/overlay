@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[dmp]]></name>
+    <description lang="en"><![CDATA[dmp's portage overlay]]></description>
+    <homepage>https://github.com/dmp0x7c5/overlay</homepage>
+    <owner type="person">
+      <email>dmp0x7c5@gmail.com</email>
+      <name><![CDATA[Michał Poczwardowski]]></name>
+    </owner>
+    <source type="git">git://github.com/dmp0x7c5/overlay.git</source>
+  </repo>
+</repositories>
