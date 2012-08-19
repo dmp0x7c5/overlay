@@ -2,6 +2,6 @@
 dmp's portage overlay
 ==============================
 
-**obexd** E-build for obexd version with gobexfuse (OBEX filesystem in userspace). Available as app-mobilephone/obexd.
+**app-mobilephone/obexd** e-build for obexd version with gobexfuse (OBEX filesystem in userspace).
 
 
