@@ -5,11 +5,11 @@
 EAPI="4"
 
 EGIT_REPO_URI="git://github.com/dmp0x7c5/gobexfuse.git"
-EGIT_BRANCH="playground"
+EGIT_BRANCH="obexfusefinal"
 
 inherit git-2 autotools eutils
 
-DESCRIPTION="OBEX Server and Client with gobexfuse"
+DESCRIPTION="OBEX Server and Client with obexfuse"
 HOMEPAGE="http://www.bluez.org/"
 LICENSE="GPL-2"
 SLOT="0"

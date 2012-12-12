@@ -22,19 +22,19 @@ layman -a dmp
 Ebuilds
 ------------
 
-**app-mobilephone/obexd** - e-build for obexd version with gobexfuse (OBEX filesystem in userspace).
+**app-mobilephone/obexd** - e-build for obexd version with obexfuse (OBEX filesystem in userspace).
 
 Don't forget to use **fuse** USE :)
 
-You could mount/unmount gobexfuse using following commands:
+You could mount/unmount obexfuse using following commands:
 ```     
-gobexfuse /mnt/myphone --target=00:24:EF:08:B6:32
+obexfuse /mnt/myphone --target=00:24:EF:08:B6:32
 fusermount -u /mnt/myphone
 ```     
 
 or simpy add new entry to */etc/fstab*:
 ```
-gobexfuse#-t00:24:EF:08:B6:32	/mnt/obex	fuse	user,fsname=gobexfuse#-t00:24:EF:08:B6:32	0 0
+obexfuse#-t00:24:EF:08:B6:32	/mnt/obex	fuse	user,fsname=obexfuse#-t00:24:EF:08:B6:32	0 0
 ```     
 
 
